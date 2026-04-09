@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeditationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditation"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:textColor="#0345D9"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/meditation"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/meditationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily Meditation Guide\n\n1. Deep Breathing\nFocus on slow, deep inhales and exhales.\n\n2. Body Scan\nSlowly move your attention through each part of your body.\n\n3. Mindful Walking\nPay attention to the sensation of your feet hitting the ground.\n\n4. Loving-Kindness\nDirect positive energy and well-wishes toward yourself and others.\n\n5. Zen Meditation\nSit in a quiet space and observe thoughts without judgment.\n\n6. Guided Visualization\nImagine a peaceful place like a forest or a beach.\n\n7. Mantra Meditation\nRepeat a calming word or phrase silently to stay focused.\n\n8. Gratitude Practice\nThink of three things you are thankful for today.\n\n9. Sound Bath\nListen to calming nature sounds or singing bowls.\n\n10. Box Breathing\nInhale, hold, exhale, and hold for 4 seconds each."
+            android:textSize="16sp"
+            android:padding="16dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

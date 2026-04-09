@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeeklygoalsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weekly Goals"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:textColor="#0345D9"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/weeklygoals"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/weeklyGoalsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Weekly Goals\n\n1. Plan Your Week\nSpend Sunday night mapping out your top tasks.\n\n2. Three Main Objectives\nPick three big wins to focus on this week.\n\n3. Daily Activity\nAim for at least 30 minutes of movement every day.\n\n4. Meal Prep\nPrepare healthy snacks to avoid impulse eating.\n\n5. Digital Detox\nReduce non-essential screen time by one hour.\n\n6. Stay Hydrated\nHit your water intake goal five days in a row.\n\n7. Learning Time\nRead or listen to a book for 20 minutes daily.\n\n8. Connect with Others\nReach out to a friend or family member.\n\n9. Consistent Sleep\nGo to bed at the same time every weeknight.\n\n10. Sunday Review\nReflect on what went well and what to improve."
+            android:textSize="16sp"
+            android:padding="16dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
