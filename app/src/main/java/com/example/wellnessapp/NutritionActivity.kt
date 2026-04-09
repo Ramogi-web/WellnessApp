@@ -69,7 +69,7 @@ class NutritionActivity : AppCompatActivity() {
                 println("User earned: $rewardAmount $rewardType")
             }
 
-            // ✅ Reload next ad
+            //  Reload next ad
             rewardedAd = null
             loadRewardedAd(activity)
 
