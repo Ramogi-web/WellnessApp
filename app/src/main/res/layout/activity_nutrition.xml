@@ -11,12 +11,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!--  BUTTON MOVED INSIDE -->
-        <Button
-            android:id="@+id/reward"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Watch Ad" />
 
         <TextView
             android:layout_width="match_parent"
@@ -42,6 +36,18 @@
             android:text="Nutrition Essentials\n\n1. Eat Whole Foods\nPrioritize unprocessed foods like grains and legumes.\n\n2. Include Lean Protein\nEat chicken, fish, beans, or tofu for muscle repair.\n\n3. Load Up on Greens\nFill half your plate with leafy vegetables.\n\n4. Healthy Fats\nInclude avocados, nuts, and olive oil in your diet.\n\n5. Watch Portion Sizes\nUse smaller plates to manage calorie intake.\n\n6. Limit Added Sugars\nReduce intake of sweets and sugary beverages.\n\n7. Fiber is Key\nEat whole fruits and oats for better digestion.\n\n8. Mindful Eating\nChew slowly and pay attention to fullness cues.\n\n9. Reduce Sodium\nSeason with herbs and spices instead of extra salt.\n\n10. Balanced Macros\nAim for a mix of carbs, proteins, and fats every meal."
             android:textSize="16sp"
             android:padding="16dp"/>
+
+        <!--  BUTTON MOVED INSIDE -->
+        <Button
+            android:id="@+id/reward"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Reward"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:padding="16dp"/>
+
 
     </LinearLayout>
 </ScrollView>

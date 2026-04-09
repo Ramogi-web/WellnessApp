@@ -22,16 +22,17 @@ class NutritionActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_nutrition)
 
-        // ✅ Load rewarded ad
+        //  Load rewarded ad
         loadRewardedAd(this)
 
-        // ✅ Button click
+        //  Find button by id
         val reward = findViewById<Button>(R.id.reward)
+
         reward.setOnClickListener {
             showRewardedAd(this)
         }
 
-        // ✅ Insets (outside click listener)
+        //  Insets (outside click listener)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
